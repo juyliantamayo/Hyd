@@ -1,22 +1,44 @@
 <HTML>
 
 <HEAD>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/footer.css">
 
 </HEAD>
 
-<BODY>
+<BODY class="bg-light text-dark">
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Logo</a>
+
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link 2</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Dropdown link
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+
+
     <div id="demo" class="carousel slide" data-ride="carousel">
         <ul class="carousel-indicators">
             <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -27,14 +49,14 @@
             <li data-target="#demo" data-slide-to="5"></li>
             <li data-target="#demo" data-slide-to="6"></li>
         </ul>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
+        <div class="carousel-inner ">
+            <div class="carousel-item active ">
                 <img src="./images/asesoria_contable.jpg" alt="Asesoria contable" style="width:100% ;height: 45%;">
                 <div class="carousel-caption">
                     <h3>Asesoría Contable</h3>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item ">
                 <img src="./images/asesoria_fiscal.jpg" alt="asesoria fiscal" style="width:100%;height: 45%">
                 <div class="carousel-caption">
                     <h3>Asesoría Tributaria Y Fiscal</h3>
@@ -81,32 +103,22 @@
     <div class="container">
         <div class="col-xm-12">
             <p>
-                La empresa H & D NUEVOS AMBIENTES EMPRESARIALES SAS, ofrece Acompañamiento en el proceso de crecimiento
-                continuo e integral en todos los procesos administrativos de las PYMES es decir de medianas , pequeñas y
-                micro empresas, incluyendo a comerciantes y personas naturales independientes con actividades
-                comerciales,
-                industriales o de servicios, trabajamos para contribuir al exitoso conocimiento e interpretación real de
-                la
-                información financiera y tributaria, acorde con el marco normativo de Colombia con un equipo de
-                profesionales en cada una de las áreas de servicios prestados, contadores, profesionales de Gestión
-                Humana y
-                Salud Ocupacional, ingenieros en sistemas, programadores y desarrolladores de software.
+                La empresa H & D NUEVOS AMBIENTES EMPRESARIALES SAS, ofrece Acompañamiento en el proceso de crecimiento continuo e integral en todos los procesos administrativos de las PYMES es decir de medianas , pequeñas y micro empresas, incluyendo a comerciantes
+                y personas naturales independientes con actividades comerciales, industriales o de servicios, trabajamos para contribuir al exitoso conocimiento e interpretación real de la información financiera y tributaria, acorde con el marco normativo
+                de Colombia con un equipo de profesionales en cada una de las áreas de servicios prestados, contadores, profesionales de Gestión Humana y Salud Ocupacional, ingenieros en sistemas, programadores y desarrolladores de software.
 
             </p>
         </div>
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="card " style="width: 100%; height: 100%; ">
-                    <img class="card-img-top" src="./images/asesoria_fiscal.jpg" alt="Card image cap"
-                        style="width: 100%;">
+                    <img class="card-img-top" src="./images/asesoria_fiscal.jpg" alt="Card image cap" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">Asesoría Tributaria Y Fiscal</h5>
-                        <p class="card-text">Ayuda con los procesos tributarios y fiscales para pequeñas, medianas
-                            empresas
+                        <p class="card-text">Ayuda con los procesos tributarios y fiscales para pequeñas, medianas empresas
                         </p>
                         <ul class="list-group">
-                            <li class="list-group-item">Preparación de los formularios para la presentación de impuestos
-                                ante las entidades nacionales y distritales.</li>
+                            <li class="list-group-item">Preparación de los formularios para la presentación de impuestos ante las entidades nacionales y distritales.</li>
                             <li class="list-group-item">Brindamos nuestra experiencia en Outsourcing tributario.</li>
                             <li class="list-group-item">Reporte de información exógena nacional y distrital.</li>
                         </ul>
@@ -119,23 +131,15 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                 <div class="card " style="width: 100%; height: 100%">
-                    <img class="card-img-top" src="./images/asesoria_contable.jpg" alt="Card image cap"
-                        style="width: 100%;">
+                    <img class="card-img-top" src="./images/asesoria_contable.jpg" alt="Card image cap" style="width: 100%;">
                     <div class="card-body">
                         <h5 class="card-title">Asesoría Contable</h5>
-                        <p class="card-text">Ayuda en lo referente a la parte de contabilidad que pueda necesitar su
-                            empresa
+                        <p class="card-text">Ayuda en lo referente a la parte de contabilidad que pueda necesitar su empresa
                         </p>
                         <ul class="list-group">
                             <li class="list-group-item">Outsourcing contable y financiero al día.</li>
-                            <li class="list-group-item">Diagnóstico y radiografía del estado de la organización la
-                                inicial
-                                el
-                                proceso con HYD.</li>
-                            <li class="list-group-item">Acompañamiento contable financiero laboral y tributario ayudando
-                                a
-                                la
-                                toma de decisiones.</li>
+                            <li class="list-group-item">Diagnóstico y radiografía del estado de la organización la inicial el proceso con HYD.</li>
+                            <li class="list-group-item">Acompañamiento contable financiero laboral y tributario ayudando a la toma de decisiones.</li>
                         </ul>
                         <br>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
@@ -153,8 +157,7 @@
                         <ul class="list-group">
                             <li class="list-group-item">A cómodas tarifas de acuerdo al requerimiento de la empresa.
                             </li>
-                            <li class="list-group-item">Tramite de la Facturación Electrónica ante la DIAN sin
-                                intermediarios. </li>
+                            <li class="list-group-item">Tramite de la Facturación Electrónica ante la DIAN sin intermediarios. </li>
                             <li class="list-group-item">Parametrización de PDF de la Factura</li>
                         </ul>
                         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
@@ -163,132 +166,237 @@
                     </div>
                 </div>
             </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="card " style="width: 100%;height: 100%">
+                    <img class="card-img-top" src="./images/asesoria_contable.jpg" alt="Card image cap" style="width: 100%;">
+                    <div class="card-body">
+                        <h5 class="card-title">Sistema de Gestión en Seguridad y Salud en el Trabajo </h5>
+                        <p class="card-text">Todo esto según las disposiciones es establecida en el Decreto 1072- 20150, Ley 1562 – 2012 y Resolución 1111 2017.</p>
+                        <ul class="list-group">
+                            <li class="list-group-item">Con el fin de dar cumplimiento a las leyes vigentes en salud ocupacional, y garantizar la calidad de vida de sus colaboradores. </li>
+                            <li class="list-group-item">PORQUE ES IMPORTANTE LA EJECUCIÓN E IMPLEMENTACIÓN DEL SGSST: 1. ¿Sigue siendo OBLIGATORIO implementar el SG-SST? Sí, todo el contenido del Decreto 1072 del 2015 (Libro2, Parte 2, Titulo 4, Capitulo 6), por lo que es de obligatorio
+                                cumplimiento. Las empresas sin importar su naturaleza o tamaño deben implementar un SG-SST.
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal4">
+                            ver mas...
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="card " style="width: 100%;height: 100%">
+                    <img class="card-img-top" src="./images/asesoria_contable.jpg" alt="Card image cap" style="width: 100%;">
+                    <div class="card-body">
+                        <h5 class="card-title">Nomina</h5>
+                        <p class="card-text"> colaboracion con el proceso de nominas y liquidaciones.</p>
+                        <ul class="list-group">
+                            <li class="list-group-item">Liquidación de nóminas mediante software debidamente certificado.
+                            </li>
+                            <li class="list-group-item">Entrega de colillas de Nómina.</li>
+                            <li class="list-group-item">Liquidación de Seguridad Social.</li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                            ver mas...
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <div class="card " style="width: 100%;height: 100%">
+                    <img class="card-img-top" src="./images/asesoria_contable.jpg" alt="Card image cap" style="width: 100%;">
+                    <div class="card-body">
+                        <h5 class="card-title">Soporte Tecnológico</h5>
+                        <p class="card-text">Nuestras opciones de soporte a nustros clientes.</p>
+                        <ul class="list-group">
+                            <li class="list-group-item">Contamos con un grupo de Ingenieros en sistemas en diferentes ramas.
+                            </li>
+                            <li class="list-group-item">En Outsourcing estamos en la capacidad de dar soporte, implementar y desarrollar los diferentes requerimientos de las organizaciones.</li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal4">
+                            ver mas...
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
         </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Asesoría Tributaria Y Fiscal</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                        <img src="./images/asesoria_fiscal.jpg" width="100%">
+                        <p></p>
+                        <ul class="list-group">
+                            <li class="list-group-item">Preparación de los formularios para la presentación de impuestos ante las entidades nacionales y distritales.</li>
+                            <li class="list-group-item">Brindamos nuestra experiencia en Outsourcing tributario.</li>
+                            <li class="list-group-item">Reporte de información exógena nacional y distrital.</li>
+                            <li class="list-group-item">Análisis permanente de la estructura tributaria de la empresa a fin de lograr la aplicación de beneficios fiscales y creación de rutinas de evaluación de riesgos y contingencias de los diferentes impuestos que aplican a las
+                                sociedades.
+                            </li>
+                            <li class="list-group-item">Elaboración y calculo declaraciones de Retención en la Fuente a Título de Timbre, Ventas y Renta, ICAS, Retención de ICA</li>
+                            <li class="list-group-item">Preparación de la información necesaria para dar respuesta de posibles requerimientos por parte de las autoridades de impuestos y presentación de informes que requieran las entidades de control fiscal.</li>
+                            <li class="list-group-item">Solicitud de compensaciones y/o saldos a favor</li>
+                            <li class="list-group-item">Elaboración de las declaraciones de renta personas naturales y jurídicas
+                            </li>
+
+                        </ul>
 
 
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
-    </div>
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Asesoría Tributaria Y Fiscal</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <img src="./images/asesoria_fiscal.jpg" width="100%">
-                    <p></p>
-                    <ul class="list-group">
-                        <li class="list-group-item">Preparación de los formularios para la presentación de impuestos
-                            ante las entidades nacionales y distritales.</li>
-                        <li class="list-group-item">Brindamos nuestra experiencia en Outsourcing tributario.</li>
-                        <li class="list-group-item">Reporte de información exógena nacional y distrital.</li>
-                        <li class="list-group-item">Análisis permanente de la estructura tributaria de la empresa a fin
-                            de lograr la aplicación de beneficios fiscales y creación de rutinas de evaluación de
-                            riesgos y contingencias de los diferentes impuestos que aplican a las sociedades.</li>
-                        <li class="list-group-item">Elaboración y calculo declaraciones de Retención en la Fuente a
-                            Título de Timbre, Ventas y Renta, ICAS, Retención de ICA</li>
-                        <li class="list-group-item">Preparación de la información necesaria para dar respuesta de
-                            posibles requerimientos por parte de las autoridades de impuestos y presentación de informes
-                            que requieran las entidades de control fiscal.</li>
-                        <li class="list-group-item">Solicitud de compensaciones y/o saldos a favor</li>
-                        <li class="list-group-item">Elaboración de las declaraciones de renta personas naturales y
-                            jurídicas</li>
-
-                    </ul>
-
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
+        <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
 
-                    <img src="./images/asesoria_contable.jpg" width="100%">
-                    <p></p>
-                    <ul class="list-group">
-                        <li class="list-group-item">Outsourcing contable y financiero al día.</li>
-                        <li class="list-group-item">Diagnóstico y radiografía del estado de la organización la inicial
-                            el
-                            proceso con HYD.</li>
-                        <li class="list-group-item">Acompañamiento contable financiero laboral y tributario ayudando a
-                            la
-                            toma de decisiones.</li>
-                        <li class="list-group-item">Revisión de la información y seguimiento de los procesos contables.
-                        </li>
-                        <li class="list-group-item">Presentación de reportes e información financiera y económica a las
-                            entidades de vigilancia y control del estado.</li>
-                        <li class="list-group-item">Preparación de los Estados Financieros básicos mensuales y anuales
-                            con sus respectivas notas base para sometimiento y aprobación.</li>
-                        <li class="list-group-item">Manejo de la contabilidad sistematizada de la empresa, mediante la
-                            validación de los registros contables realizados y elaboración de registros adicionales de
-                            los movimientos contables que resulten de la operación, mediante la utilización de un
-                            software de contabilidad debidamente certificado por la DIAN.</li>
-                        <li class="list-group-item">Se acuerda con el cliente la forma de realizar la asesoría, la cual
-                            la empresa tiene la posibilidad de adaptarse generalmente a las exigencias propias, tales
-                            como una asesoría presencial, semipresencial, virtual y/o mixta de manera remota.</li>
-                        <li class="list-group-item">Toda la asesoría e informes que requiera en el desarrollo de sus
-                            actividades.</li>
-                        <li class="list-group-item">Preparación y cargue de la nómina de la organización para pagos a 15
-                            días o 30.</li>
-                    </ul>
+                        <img src="./images/asesoria_contable.jpg" width="100%">
+                        <p></p>
+                        <ul class="list-group">
+                            <li class="list-group-item">Outsourcing contable y financiero al día.</li>
+                            <li class="list-group-item">Diagnóstico y radiografía del estado de la organización la inicial el proceso con HYD.</li>
+                            <li class="list-group-item">Acompañamiento contable financiero laboral y tributario ayudando a la toma de decisiones.</li>
+                            <li class="list-group-item">Revisión de la información y seguimiento de los procesos contables.
+                            </li>
+                            <li class="list-group-item">Presentación de reportes e información financiera y económica a las entidades de vigilancia y control del estado.</li>
+                            <li class="list-group-item">Preparación de los Estados Financieros básicos mensuales y anuales con sus respectivas notas base para sometimiento y aprobación.</li>
+                            <li class="list-group-item">Manejo de la contabilidad sistematizada de la empresa, mediante la validación de los registros contables realizados y elaboración de registros adicionales de los movimientos contables que resulten de la operación, mediante
+                                la utilización de un software de contabilidad debidamente certificado por la DIAN.</li>
+                            <li class="list-group-item">Se acuerda con el cliente la forma de realizar la asesoría, la cual la empresa tiene la posibilidad de adaptarse generalmente a las exigencias propias, tales como una asesoría presencial, semipresencial, virtual y/o mixta de
+                                manera remota.</li>
+                            <li class="list-group-item">Toda la asesoría e informes que requiera en el desarrollo de sus actividades.
+                            </li>
+                            <li class="list-group-item">Preparación y cargue de la nómina de la organización para pagos a 15 días o 30.</li>
+                        </ul>
 
 
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+        <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                        <img src="./images/factura.jpg" width="100%">
+                        <p></p>
+                        <ul class="list-group">
+                            <li class="list-group-item">A cómodas tarifas de acuerdo al requerimiento de la empresa.
+                            </li>
+                            <li class="list-group-item">Tramite de la Facturación Electrónica ante la DIAN sin intermediarios. </li>
+                            <li class="list-group-item">Parametrización de PDF de la Factura</li>
+                            <li class="list-group-item">Parametrización de Factura Electrónica </li>
+                            <li class="list-group-item">Transacciones electrónicas ilimitadas.</li>
+                            <li class="list-group-item">Tramitamos por usted el proceso ante la DIAN.</li>
+                        </ul>
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                    </div>
                 </div>
-                <div class="modal-body">
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
 
-                    <img src="./images/factura.jpg" width="100%">
-                    <p></p>
-                    <ul class="list-group">
-                        <li class="list-group-item">A cómodas tarifas de acuerdo al requerimiento de la empresa.</li>
-                        <li class="list-group-item">Tramite de la Facturación Electrónica ante la DIAN sin
-                            intermediarios. </li>
-                        <li class="list-group-item">Parametrización de PDF de la Factura</li>
-                        <li class="list-group-item">Parametrización de Factura Electrónica </li>
-                        <li class="list-group-item">Transacciones electrónicas ilimitadas.</li>
-                        <li class="list-group-item">Tramitamos por usted el proceso ante la DIAN.</li>
-                    </ul>
+                        <img src="./images/asesoria_contable.jpg" width="100%">
+                        <p></p>
+                        <ul class="list-group">
+                            <li class="list-group-item">Con el fin de dar cumplimiento a las leyes vigentes en salud ocupacional, y garantizar la calidad de vida de sus colaboradores. </li>
+                            <li class="list-group-item">PORQUE ES IMPORTANTE LA EJECUCIÓN E IMPLEMENTACIÓN DEL SGSST: 1. ¿Sigue siendo OBLIGATORIO implementar el SG-SST? Sí, todo el contenido del Decreto 1072 del 2015 (Libro2, Parte 2, Titulo 4, Capitulo 6), por lo que es de obligatorio
+                                cumplimiento. Las empresas sin importar su naturaleza o tamaño deben implementar un SG-SST.
+                            </li>
+                            <li class="list-group-item">Profesional en salud ocupacional que los apoya en el Diseño, ejecución e implementación del Sistema de Gestión de la Seguridad y Salud en el Trabajo, realizando actividades de promoción de la salud, prevención de accidentes
+                                y enfermedades laborales, Investigación de accidentes, controlando riesgos y peligros, realizando inspecciones, capacitaciones, procedimientos de trabajo seguro. Buscando el mejoramiento continuo, la calidad de vida de
+                                los trabajadores, lo cual contribuyen a optimizar de los procesos de la empresa e incremento de su productividad y competitividad.</li>
+                            <li class="list-group-item">MOTIVOS PARA IMPLEMENTAR EL SG-SST: En el Decreto 171 de febrero de 2016, Todos los empleadores públicos y privados, los contratantes de personal bajo cualquier modalidad de contrato civil, comercial o administrativo, organizaciones
+                                de economía solidaria y del sector cooperativo, así como las empresas servicios temporales, deberán elabora e implementar el Sistema de Gestión de la Seguridad y Salud en el Trabajo (SG-SST).</li>
+
+                        </ul>
 
 
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                    </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
 
+                        <img src="./images/asesoria_contable.jpg" width="100%">
+                        <p></p>
+                        <ul class="list-group">
+                            <li class="list-group-item">Contamos con un grupo de Ingenieros en sistemas en diferentes ramas.
+                            </li>
+                            <li class="list-group-item">En Outsourcing estamos en la capacidad de dar soporte, implementar y desarrollar los diferentes requerimientos de las organizaciones.</li>
+                            <li class="list-group-item">Soportes en softwares contables.</li>
+                            <li class="list-group-item">Implementación, codificación e implementación del proceso de inventario.
+                            </li>
+                            <li class="list-group-item">Desarrollo de soluciones integrales en computación móvil, captura automatizada de datos y administración de la información, Nuestros servicios van dirigidos a empresas de Industria, Retail, Servicios y Transporte y Logística.</li>
+
+                        </ul>
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -349,11 +457,8 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-                    <p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a
-                        Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp,
-                        Minneapolis, MN]</p>
-                    <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com"
-                            target="_blank">Sunlimetech</a></p>
+                    <p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
+                    <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Sunlimetech</a></p>
                 </div>
                 </hr>
             </div>
